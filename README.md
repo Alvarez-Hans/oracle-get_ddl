@@ -20,7 +20,7 @@ Los packages deben ser buscado por su nombre de spec (sin body), en donde, se ge
 
 ## Installation
 
-Bajar el script [gen_ddl.sql](https://raw.githubusercontent.com/Alvarez-Hans/oracle-get_ddl/master/README.md) en el directorio donde se quiere realizar el respaldo los objetos de ORACLE.
+Bajar el script [gen_ddl.sql](https://raw.githubusercontent.com/Alvarez-Hans/oracle-get_ddl/master/gen_ddl.sql) en el directorio donde se quiere realizar el respaldo los objetos de ORACLE.
 
 ## Documentation
 
