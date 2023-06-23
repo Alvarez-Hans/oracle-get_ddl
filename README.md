@@ -32,12 +32,12 @@ El script se debe ejecutar en `sqlplus`.
 
 ### Sentencia: 
 ```SQL
-@@gen_ddl.sql <archivo.sql>, <owner>, <objeto> 
+@@gen_ddl.sql <archivo.sql> <owner> <objeto> 
 ``` 
 
 ### Uso:
 ```SQL
-@@gen_ddl.sql 'prueba.sql', 'SYS', 'ALL_OBJECTS' 
+@@gen_ddl.sql 'prueba.sql'  'SYS'  'ALL_OBJECTS' 
 ``` 
 
 Esto generara un archivo llamando `prueba.sql` en el directorio de ejecucion del `sqlplus`, en donde el archivo generara los fuentes de la tabla `ALL_OBJECTS` del usuario `SYS`.
