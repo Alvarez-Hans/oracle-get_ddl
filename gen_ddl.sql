@@ -29,7 +29,7 @@ BEGIN
 END;
 /
 
-spool &&1..sql
+spool &&1
 
 SELECT DBMS_METADATA.GET_DDL (A.OBJECT_TYPE, A.OBJECT_NAME, A.OWNER) AS SOURCE
 --     , A.*
